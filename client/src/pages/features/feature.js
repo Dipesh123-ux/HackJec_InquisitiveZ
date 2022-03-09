@@ -10,7 +10,7 @@ class Feature extends React.Component{
                     <img src="assets/img/shapes/shape-3.svg" alt=""/>
                 </div>
                 <div class="container">
-                    <div class="row">
+                    {/* <div class="row">
                         <div class="col-xl-8 mx-auto">
                             <div class="section-title text-center mb-55">
                                 <span class="wow fadeInDown" data-wow-delay=".2s"></span>
@@ -20,7 +20,7 @@ class Feature extends React.Component{
                                     <br class="d-none d-lg-block"/> eirmod tempor invidunt ut labore et dolore magn.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div class="row">
                         <h3>Assessments</h3>
                         <div><br/></div>
@@ -31,7 +31,7 @@ class Feature extends React.Component{
                                 </div>
                                 <div class="service-content">
                                     <h4>Typing Test</h4>
-                                    <p></p>
+                                    <p>Test the acurracy and speed in ords per minute by typing various random words</p>
                                     <Link to="/typingHome" class="read-more">Attempt <i class="lni lni-arrow-right"></i></Link>
                                 </div>
                                 <div class="service-overlay img-bg"></div>
@@ -44,8 +44,7 @@ class Feature extends React.Component{
                                 </div>
                                 <div class="service-content">
                                     <h4>Peabody Picture Vocabulary Test</h4>
-                                    <p>Lorem ipsum dolor sit amet, consetet
-                                        sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
+                                    <p>This test help in identifying various objects with the help of images.</p>
                                     <Link to="/imagequiz" class="read-more">Attempt<i class="lni lni-arrow-right"></i></Link>
                                 </div>
                                 <div class="service-overlay img-bg"></div>

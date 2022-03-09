@@ -10,10 +10,9 @@ exports.getTypingScore = (req, res, next) => {
 
   Typing.find({Student : userId}).then(result=>{
         
-    res.status(200).json({
+   return res.status(200).json({
            score : result
     });
-
   
    })
 

@@ -27,7 +27,7 @@ import TypingGame from "./pages/features/typingGame"
 import TypingResult from "./pages/features/typingResult"
 import Profile from "./pages/profile"
 import ImageQuiz from "./pages/features/ImageQuiz"
-import MemoryGame from "./pages/features/memoryGame"
+// import MemoryGame from "./pages/features/memoryGame"
 
 
 // import history  from './history';
@@ -183,9 +183,9 @@ const  App = ()=>{
           <Route path="/typingResult" exact element={<TypingResult />}></Route>
           <Route path="/signup" exact element={<Signup  onSignup={signupHandler}/>}></Route>
           <Route path="/login_pg" exact element={<Login onLogIn={loginHandler} />}></Route>
-          <Route path="/profile" exact element={<Profile userId={userId} />}></Route>
+          <Route path="/profile" exact element={<Profile userId={userId} token={token} />}></Route>
           <Route path="/imagequiz" exact element={<ImageQuiz token={token} userId={userId} />}></Route>
-          <Route path="/memorygame" exact element={<MemoryGame token={token} userId={userId} />}></Route>
+          {/* <Route path="/memorygame" exact element={<MemoryGame token={token} userId={userId} />}></Route> */}
 
           
         </Routes>
