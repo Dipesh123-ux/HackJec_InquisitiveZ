@@ -1758,6 +1758,16 @@ p {
 /*===========================
     About css 
 ===========================*/
+.text {
+  font-size: 1.2rem;
+  color: rgb(87, 86, 86);
+}
+
+.moto-text {
+  font-size: 1.2rem;
+  margin-bottom: 80px;
+  color: rgb(87, 86, 86);
+}
 .about-section {
   position: relative;
   overflow: hidden;

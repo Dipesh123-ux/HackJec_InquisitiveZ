@@ -14,8 +14,8 @@ function Footer() {
                                 <a href="#">
                                     <img src="images/newLogo.png" alt="Logo"/>
                                 </a>
-                                <p className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, repudiandae! Totam, nemo sed? Provident.</p>
-                                <p className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                {/* <p className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, repudiandae! Totam, nemo sed? Provident.</p>
+                                <p className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> */}
                             </div> 
                         </div>
                         <div className="col-lg-3 col-sm-6 order-sm-3 order-lg-2">
@@ -24,10 +24,9 @@ function Footer() {
                                     <h5 className="title">Features</h5>
                                 </div>
                                 <ul>
-                                    <li><a href="#">Lorem ipsum dolor</a></li>
-                                    <li><a href="#">Lorem ipsum dolor</a></li>
-                                    <li><a href="#">Lorem ipsum dolor</a></li>
-                                    <li><a href="#">Lorem ipsum dolor</a></li>
+                                    <li><a href="#">Assessments</a></li>
+                                    <li><a href="#">Profile</a></li>
+                                    <li><a href="#">Practice</a></li>
                                 </ul>
                             </div> 
                         </div>
@@ -50,7 +49,7 @@ function Footer() {
                                     <h5 className="title">Contact Info</h5>
                                 </div>
                                 <div className="contact pt-10">
-                                    <p className="text">123 Jabalpur, India</p>
+                                    <p className="text"> Jabalpur, India</p>
                                     <p className="text">lessonify@gmail.com</p>
                                     <p className="text">+99 000 000 00 00</p>
 
